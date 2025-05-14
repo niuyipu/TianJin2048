@@ -25,8 +25,7 @@ private:
     void startNewGame();
 
     void spawnNewTile();
-/*
-    // 更新UI显示
+
     void updateUI();
 
 
@@ -39,7 +38,9 @@ private:
     // 处理键盘输入
     void keyPressEvent(QKeyEvent *event);
 
-*/
+    bool checkGameOver();
+
+
 };
 
 #endif // MAINWINDOW_H
